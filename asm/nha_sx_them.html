@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <img
+          src="data:image/png;base64,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"
+          alt="Logo" />
+      </div>
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Nhập từ khóa" />
+        
+      </div>
+      <ul class="menu">
+        <!-- <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Dịch vụ</a></li> -->
+        <!-- <li><a href="lienhe.html">Liên hệ</a></li>
+        <li><a href="admin.html">Admin</a></li> -->
+        <li>
+          <button class="login-button">
+            <a href="login.html">Đăng Nhập</a>
+          </button>
+        </li>
+        <li>
+          <button class="login-button">
+            <a href="register.html">Đăng Kí</a>
+          </button>
+        </li>
+      </ul>
+    </header>
+
+    <main class="bg-body-tertiary" style="min-height: 300px;"></main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div>
+            <h6 class="footer-title">Đa Dạng Thanh Toán</h6>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chuyển khoản</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Tiền mặt</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">VNPay</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">VietQR</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Thẻ ATM</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Thẻ Quốc tế</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="footer-title">Thông tin hữu ích</h6>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chính sách bảo hành</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chính sách đổi trả</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chính sách vận chuyển</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chính sách bảo mật</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chính sách thanh toán</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Chính sách kiểm hàng</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">CHướng dẫn mua hàng online</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Về chúng tôi</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="footer-title">Social networks</h6>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Facebook</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Youtube</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Tiktok</a>
+              </li>
+              <li class="footer-list-item">
+                <a href="#" class="footer-list-link">Telegram</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-title">
+              <h6 class="footer-title">Phản hồi, góp ý, khiếu nại</h6>
+              <p style="color: #666873">
+                Phản hồi nóng về chất lượng sản phẩm và dịch vụ. Đội ngũ Kiểm
+                Soát Chất Lượng của chúng tôi sẵn sàng lắng nghe quý khách.
+              </p>
+              <div>
+                <a aria-label="Gửi phản hồi ngay" href="lienhe.html" rel="noopener" target="_blank"><button style="
+                        background-color: #0ec2d3;
+                        font-size: 1.25rem;
+                        padding: 1rem 1.5rem;
+                        border-radius: 5px;
+                      ">
+                    <!---->
+                    <span>Gửi phản hồi ngay</span>
+                    <!---->
+                    <!---->
+                  </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+
+        <div class="footer-bottom">
+          <span class="copyright">&copy; 2022 AsmrProg. All rights reserved.</span>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+</body>
+<script src="https://kit.fontawesome.com/9974a37d38.js" crossorigin="anonymous"></script>
+</html>
+<script type="module">
+  import {  form_them_nha_sx, them_nha_sx} from './js/admin_nha_sx.js';
+  document.querySelector("main").innerHTML =  form_them_nha_sx();
+  document.querySelector("#btn").addEventListener('click', them_nha_sx);
+</script>
